@@ -1,0 +1,19 @@
+<%- include("partials/header") -%>
+
+
+<img src="/images/profile.jpg" alt="Testing image" name="image" class="imageProfile">
+
+<h2 class="profileWords">Yeboah Solomon Opoku</h2>
+<h4 class="profileWord">JHOKER</h4>
+<h4 class="profileWor">Business A</h4>
+
+<div class="line"></div>
+
+<form action="/profile" method="post">
+    <label class="profileLabel">Update Profile Picture</label>
+    <input id="profileImage" type="file" name="image" required="" capture/>
+<br>
+    <button type="submit" name="button" id="button">Update</button> 
+</form>
+
+

@@ -1,0 +1,63 @@
+body {
+    font-family: cursive;
+}
+
+label {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    position: relative;
+    left: 110px;
+    padding: 10px;
+}
+
+.navbar {
+    font-family: cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    font-weight: bold;
+}
+
+.in {
+    width: 350px;
+    height: 35px;
+    margin: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.firstPage {
+    position: relative;
+    top: 100px;
+    left: 25px;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: #f5f5f5;
+    background-color: #000000;
+
+}
+
+form {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}

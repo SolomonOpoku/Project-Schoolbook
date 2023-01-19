@@ -1,0 +1,29 @@
+<%- include("partials/header") -%>
+
+<form action="/post" method="post" enctype="multipart/form-data">
+
+        <h2>Create Post</h2>
+<br>    
+        <label>Name</label>
+<br>    
+        <input type="text" name="username" class="in">
+<br>
+        <label>Nicky</label>
+<br>    
+        <input type="text" name="nickname" class="in">
+<br>
+        <label>Class</label>
+<br>
+        <input type="text" name="nameOfClass" class="in">
+<br>
+<br>
+
+        <label>What's on your mind?</label>
+        <textarea name="textarea" cols="30" rows="10" class="in"></textarea>
+        <label>Upload</label> 
+<br>
+        <!-- <input id="image" type="file" name="image" required="" capture/> -->
+<br>
+        <button type="submit" name="button">Post</button> 
+</form>
+

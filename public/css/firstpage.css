@@ -1,0 +1,69 @@
+body {
+    font-family: cursive;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar {
+    font-family: cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    position: relative;
+    left: 110px;
+    padding: 10px;
+} 
+
+.center {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.content {
+    position: relative;
+    top: 70px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.firstPage {
+    position: relative;
+    top: 100px;
+    left: 25px;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.navbar-nav li {
+    margin: 5px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    padding: 5px;
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: #f5f5f5;
+    background-color: #000000;
+
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}

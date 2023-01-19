@@ -1,0 +1,195 @@
+body {
+    font-family: cursive;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar {
+    font-family: cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+} 
+
+.navbar-nav li {
+    margin: 5px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.fa {
+    font-size: 27px;
+}
+
+ #home {
+    left: 230px;
+}
+
+#profile {
+    left: 290px;
+}
+
+
+/* POST SECTION */
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: #f5f5f5;
+    background-color: #000000;
+
+}
+
+ .in {
+    width: 350px;
+    height: 35px;
+    margin: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.update {
+    position: absolute;
+    top: 600px;
+ 
+}
+
+h2 {
+    text-align: center;
+}
+
+/*/////////////////////// HOME TAB//////////////////////// */
+
+.profile {
+    width: 18%;
+    border-radius: 150px;
+}
+
+.homeWords {
+    position: absolute;
+    top: 95px;
+    left: 90px;
+    font-weight: bold;
+}
+
+.word {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+}
+
+.wor {
+    left: 200px;
+}
+
+.center {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.content {
+    position: relative;
+    top: 70px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+label {
+    font-size: 20px;
+}
+
+h3 {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    font-weight: bold;
+}
+
+.login {
+    left: 65px;
+}
+
+.page {
+    top: 50px;
+}
+
+/*////////////////////// PROFILE TAB ///////////////////*/
+
+.imageProfile {
+    position: relative;
+    left: 20px;
+    width: 50%;
+    border-radius: 150px;
+}
+
+.profileWords {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    font-weight: bold;
+}
+
+.profileWord {
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    font-weight: bold;
+}
+
+.profileWor {
+    position: absolute;
+    top: 350px;
+    left: 220px;
+    font-weight: bold;
+}
+
+#profileImage {
+    position: relative;
+    top: 280px;
+    left: 70px;
+}
+
+#button {
+    position: relative;
+    top: 280px;
+    left: 70px;
+    height: 35px;
+    width: 150px;
+}
+
+.profileLabel {
+    position: relative;
+    top: 250px;
+    left: 70px
+}
+
+.line {
+    position: relative;
+    top: 157px;
+    border: 1px solid #000000;
+    width: 380px;
+}
