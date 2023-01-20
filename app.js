@@ -18,29 +18,29 @@ app.use(express.static("public"))
 mongoose.set('strictQuery', false)
 mongoose.connect("mongodb://127.0.0.1:27017/bookDB")
 
-//////////REGISTER SCHEMA////////////////
+////////REGISTER SCHEMA////////////////
 
-const booksSChema = {
+const registerSChema = new mongoose.Schema ({
     username: String,
     password: {
         type: String,
         required: true
     },
     email: String
-}
+})
 
-const Book = mongoose.model("Book", booksSChema)
+const Register = mongoose.model("Register", registerSChema)
 
 ///////////////HOME SCHEMA/////////////////
 
-const homeSchema = {
+const postSchema = new mongoose.Schema ({
     name: String,
     nicky: String,
     nameClass: String,
     text: String
-}
+})
 
-const Home = mongoose.model("Home", homeSchema)
+const Post = mongoose.model("Post", postSchema)
 
 
 
@@ -55,9 +55,9 @@ app.get("/", function(req, res) {
 })
 
 app.get("/home", function(req, res) {
-    Home.find({}, function(err, foundItems) {
+    Post.find({}, function(err, foundItems) {
         res.render("home", {postContent: foundItems})   
-})
+    })
 })
 
 app.get("/post", function(req, res){
@@ -79,7 +79,7 @@ app.get("/login", function(req, res) {
 ////////////POST RENDERING////////////////////
 
 app.post("/register", function(req, res) {
-    const user = new Book ({
+    const user = new Register ({
         username: req.body.username,
         password: req.body.password,
         email: req.body.email
@@ -90,16 +90,11 @@ app.post("/register", function(req, res) {
 
 app.post("/post", function(req, res) {
 
-    const name = req.body.username
-    const nicky = req.body.nickname
-    const nameClass = req.body.nameOfClass
-    const text = req.body.textarea
-
-    const postName = new Home ({
-        name: name,
-        nicky: nicky,
-        nameClass: nameClass,
-        text: text
+    const postName = new Post ({
+        name: req.body.username,
+        nicky: req.body.nickname,
+        nameClass: req.body.nameOfClass,
+        text: req.body.textarea
     })
     postName.save()
     res.redirect("home")

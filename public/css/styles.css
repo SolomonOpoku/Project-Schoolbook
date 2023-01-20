@@ -71,28 +71,30 @@ h2 {
     text-align: center;
 }
 
-/*/////////////////////// HOME TAB//////////////////////// */
-
-.profile {
-    width: 18%;
-    border-radius: 150px;
-}
-
-.homeWords {
-    position: absolute;
-    top: 95px;
+.name {
+    /* position: absolute; */
+    top: 580px;
     left: 90px;
     font-weight: bold;
 }
 
-.word {
-    position: absolute;
-    top: 130px;
+.nicky {
+    /* position: absolute; */
+    /* top: 615px; */
     left: 110px;
 }
 
-.wor {
+.nameOfClass {
     left: 200px;
+}
+
+/*/////////////////////// HOME TAB//////////////////////// */
+
+.profile {
+    position: absolute;
+    left: 300px;
+    width: 18%;
+    border-radius: 150px;
 }
 
 .center {
@@ -110,22 +112,15 @@ h2 {
     font-size: 3rem;
 }
 
-
-
-p {
-    font-size: 1.6rem;
-    text-align: center;
-    font-family: cursive;
-}
-
 label {
     font-size: 20px;
 }
 
-h3 {
-    position: absolute;
-    top: 70px;
-    left: 90px;
+p {
+    text-align: center;
+}
+
+h4 {
     font-weight: bold;
 }
 

@@ -2,9 +2,9 @@
 
 <img src="/images/profile.jpg" alt="profile" class="profile">
 
-    <h4 class="homeWords"> Yeboah Solomon Opoku </h4>
-    <p class="word"> Jhoker </p>
-    <p class="word wor"> Business A </p> 
+    <h4> Yeboah Solomon Opoku </h4>
+    <h5> Jhoker </h5>
+    <h5> Business A </h5> 
     <hr>
 
     <div class="container">
@@ -17,26 +17,23 @@
     <p>I am Here!</p>
 <hr>
 
-
-
-
-
 <% postContent.forEach(function(post) { %>
 
     <img src="/images/profile.jpg" alt="profile" class="profile">
 
-    <h4 class="homeWords"> <%=post.name%> </h4>
-    <p class="word"> <%=post.nicky%> </p>
-    <p class="word wor"> <%=post.class%> </p> 
-
+    <h4> <%=post.name%> </h4>
+    <h5> <%=post.nicky%> </h5>
+    <h5> <%=post.nameClass%> </h5> 
+<hr>
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="<%= post.Image %>" alt="" center>
+                <img src="<%= post.Image %>" alt="">
             </div>
         </div>
-    </div>
-
+    </div>  
+    <p> <%=post.text%> </p>
+<hr>
 <!-- <% console.log(post) %> -->
 
 <% }) %>
